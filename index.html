@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>JorgeRivas.Dev</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="imgages/New Project (2).png"></a>
+                <div class="nav-links" id="navlinks">
+                  <i class="fa fa-times"onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">RESUME</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+
+        <div class="text-box">
+            <h1>Welcome To My Page</h1>
+            <p>I am a Web developer<br> powered by HTML,Css,Javascript  :)</p>
+            <a href=""class="hero-btn">visit for more info</a>
+        </div>
+
+
+        </section>
+
+  <!------WEBDEV STRENgThs----->
+
+  <section class="course">
+    <h1>My WebDev Strength's</h1>
+    <p>Learning In Progress</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>HTML5</h3>
+            <p>visual studio code</p>
+        </div>
+        <div class="course-col">
+            <h3>CSS</h3>
+            <p>Something about css i cant think of anythingS</p>
+        </div>
+        <div class="course-col">
+            <h3>Javascript</h3>
+            <p>Something about Javascript i cant think of anythingS</p>
+        </div>
+    </div>
+
+  </section>
+
+  <!------global web----->          
+  <section class="campus">
+    <h1>Some Of My Clients Projects</h1>
+    <p>how you bjadjvh</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="imgages/sugarbuzz.png.png">
+            <div class="layer">
+                <h3>Sugar Buzz"WEB"</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="imgages/workinprogress.png">
+            <div class="layer">
+                <h3>website.com</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="imgages/workinprogress.png">
+            <div class="layer">
+                <h3>website.com</h3>
+            </div>
+        </div>
+    </div>
+
+  </section>
+<!-----------facilitys-------->
+<section class="facilities">
+
+    <h1>personal Projects</h1>
+    <p>how ajdfhakjhgluarea;  jshdf</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="imgages/aurduino.png">
+            <h3>Aurduino uno/HC-SR04</h3>
+            <p>Aurduino and ultrasonic sensor are used to determine the distance of an object. <br> It's an excellent non-contact detection. This is my first aurduino project.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="imgages/workinprogress.png">
+            <h3>WORK IN PROGRESS</h3>
+            <p>another sentence kjdfgajfdvsjdkdkjfvs.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="imgages/workinprogress.png">
+            <h3>WORK IN PROGRESS</h3>
+            <p>another sentence kjdfgajfdvsjdkdkjfvs.</p>
+        </div>
+    </div>
+</section>
+
+<!--------testimonials------->
+<section class="testimonials">
+    <h1>What Our Customer's Say</h1>
+    <p>Some Of My Customers Comments and Reviews </p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="imgages/sugarbuzz.png.png">
+            <div>
+                <h3>Sugar Buzz</h3>
+                <p>Great Website. </p>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="imgages/workinprogress.png">
+            <div>
+                <p>atnptje jdj msjdfa;jn jdjvjd jdjdjakskn
+                    dkdkddjjdjdjdkdk 
+                </p>
+                <h3>username username</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---------call to action-->
+
+<section class="cta">
+    <h1>pues que digoo??????</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!---------footer-->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>i like to learn tech specially web development and some aurduino project soon to work on raspberry pie.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with LOVE by JorgeRivas</i></p>
+</section>
+
+
+<!-----Javascript for toggle Menu -------->
+        <script>
+            var navlinks = document.getElementById('navLinks');
+
+            function showMenu(){
+                navlinks.style.right = "0";          
+              }
+            function showMenu(){
+                navlinks.style.right = "-200px";          
+              }
+        </script>
+    </body>
+</html>
