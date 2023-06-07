@@ -1,4 +1,4 @@
-this are the files for my website at jorgerivas.dev
+ jorgerivas.dev
 
 
 # JorgeRivas
