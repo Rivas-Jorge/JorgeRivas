@@ -1,3 +1,20 @@
+.icons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin: 0 10px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
 .social-icons-container {
   position: fixed;
   bottom: 20px;
