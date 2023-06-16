@@ -14,7 +14,6 @@
   border-radius: 50%;
 }
 
-
 .social-icons-container {
   position: fixed;
   bottom: 20px;
@@ -29,6 +28,7 @@
 .social-icons-container.show {
   opacity: 1;
 }
+
 .social-icons-container a {
   margin-bottom: 10px;
 }
@@ -65,14 +65,14 @@
 .profile h1 {
   font-size: 36px;
   margin-bottom: 10px;
-  color: #333;
+  color: #030202;
 }
 
 .profile p {
   font-size: 18px;
-  color: #777;
+  color: #0f0808;
+  margin-top: 200px;
 }
-
 .projects {
   margin-top: 40px;
 }
@@ -179,7 +179,6 @@
   z-index: -1;
 }
 
-
 body {
   font-family: 'Font1', sans-serif;
   margin: 0;
@@ -197,4 +196,51 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#portal {
+  margin: auto;
+  margin-top: -305px;
+  width: 214px;
+  height: 207px;
+  position: relative;
+  border: 0px solid rgb(48, 180, 241);
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px 40px rgba(135, 214, 250, 0.767);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 1s linear infinite;
+}
 
+#portal img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chispas {
+  position: absolute;
+  width: 1px;
+  height: 100px;
+  background: linear-gradient(rgb(0, 204, 255), rgb(129, 13, 13));
+  margin: auto;
+  transform-origin: top left;
+  animation: resizer 1s ease-in-out infinite;
+}
+
+@keyframes resizer {
+  0% { height: 100px; }
+  50% { height: 150px; }
+  100% { height: 100px; }
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
