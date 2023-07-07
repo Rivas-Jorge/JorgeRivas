@@ -6,7 +6,7 @@
 
 ## Instructions
 
-- personal website
+- portfolio 
 - visit: https://jorgerivas.dev
 -  show customer projects
 -  show personal projects
